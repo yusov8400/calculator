@@ -1,9 +1,9 @@
-class Expressions {
+class Expression {
     private final int firstNumber;
     private final int secondNumber;
     private final String sign;
 
-    public Expressions(int firstNumber, int secondNumber, String sign) {
+    public Expression(int firstNumber, int secondNumber, String sign) {
         this.firstNumber = firstNumber;
         this.secondNumber = secondNumber;
         this.sign = sign;
